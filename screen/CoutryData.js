@@ -25,28 +25,28 @@ function V(props) {
         <Image source={data.flags.svg} style={style.img} />
         <View>
           <View style={style.row}>
-            <Text style={[style.column, style.text]}>Capital:</Text>
+            <Text style={[style.column, style.text]}>Нийслэл:</Text>
             <Text style={[style.column, style.text]}>{data.capital}</Text>
           </View>
           <View style={style.row}>
-            <Text style={[style.column, style.text]}>Population:</Text>
+            <Text style={[style.column, style.text]}>Хүн ам:</Text>
             <Text style={[style.column, style.text]}>{data.population}</Text>
           </View>
           <View style={style.row}>
-            <Text style={[style.column, style.text]}>Languages</Text>
+            <Text style={[style.column, style.text]}>Хэл</Text>
             <Text style={[style.column, style.text]}>{languages}</Text>
           </View>
 
           <View style={style.row}>
-            <Text style={[style.column, style.text]}>Continents:</Text>
+            <Text style={[style.column, style.text]}>Тив:</Text>
             <Text style={[style.column, style.text]}>{data.continents}</Text>
           </View>
           <View style={style.row}>
-            <Text style={[style.column, style.text]}>Area:</Text>
+            <Text style={[style.column, style.text]}>Бүс:</Text>
             <Text style={[style.column, style.text]}>{data.area}km2</Text>
           </View>
           <View style={style.row}>
-            <Text style={[style.column, style.text]}>Borders:</Text>
+            <Text style={[style.column, style.text]}>Хил:</Text>
             <Text style={[style.column, style.text]}>{border}</Text>
           </View>
           <View style={style.row}>
@@ -54,19 +54,19 @@ function V(props) {
             <Text style={[style.column, style.text]}>{data.fifa}</Text>
           </View>
           <View style={style.row}>
-            <Text style={[style.column, style.text]}>Region:</Text>
+            <Text style={[style.column, style.text]}>Бүс нутаг:</Text>
             <Text style={[style.column, style.text]}>{data.region}</Text>
           </View>
           <View style={style.row}>
-            <Text style={[style.column, style.text]}>Start of Week:</Text>
+            <Text style={[style.column, style.text]}>Долоо хоногийн эхлэл:</Text>
             <Text style={[style.column, style.text]}>{data.startOfWeek}</Text>
           </View>
           <View style={style.row}>
-            <Text style={[style.column, style.text]}>Subregion:</Text>
+            <Text style={[style.column, style.text]}>Дэд бүс:</Text>
             <Text style={[style.column, style.text]}>{data.subregion}</Text>
           </View>
           <View style={style.row}>
-            <Text style={[style.column, style.text]}>Timezones:</Text>
+            <Text style={[style.column, style.text]}>Цагийн бүс:</Text>
             <Text style={[style.column, style.text]}>{data.timezones}</Text>
           </View>
           <View style={style.row}>

@@ -148,7 +148,7 @@ export default function App() {
       <View style={style.loginPanel}>
         <Text style={style.signTitle}>Sign</Text>
         <View style={style.signLI}>
-          <Text style={style.signLabel}>User Name</Text>
+          <Text style={style.signLabel}>Email</Text>
           <TextInput
             style={style.signInput}
             onChangeText={(value) => {
@@ -189,7 +189,7 @@ const style = StyleSheet.create({
   countryBox: {
     width: 200,
     height: 250,
-    backgroundColor: "#cccccc",
+    backgroundColor: "aqua",
     borderRadius: 20,
     margin: 20,
     alignItems: "center",
@@ -203,7 +203,7 @@ const style = StyleSheet.create({
   loginPanel: {
     height: height * 0.35,
     width: height * 0.5,
-    backgroundColor: "aqua",
+    backgroundColor: "#cccccc",
     borderRadius: 30,
     left: width / 2 - height * 0.25,
     top: (height * (1 - 0.35)) / 2,
@@ -230,14 +230,14 @@ const style = StyleSheet.create({
     alignSelf: "center",
     width: height * 0.2,
     height: height * 0.07,
-    backgroundColor: "#0000ff",
+    backgroundColor: "white",
     alignItems: "center",
     borderRadius: 50,
     justifyContent: "center",
     marginTop: 30,
   },
   signBtnText: {
-    color: "#ffffff",
+    color: "black",
     fontSize: 30,
   },
 });

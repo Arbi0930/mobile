@@ -1,22 +1,14 @@
 [
     {
-        "userName":"admin",
+        "userName":"admin@admin.mn",
         "pass":"admin"
     },
     {
-        "userName":"root",
-        "pass":"root"
+        "userName":"bilguun.m@mbank.mn",
+        "pass":"0930"
     },
     {
-        "userName":"test",
-        "pass":"test"
-    },
-    {
-        "userName":"haku",
-        "pass":"haku"
-    },
-    {
-        "userName":"user",
-        "pass":"user"
+        "userName": "Bilguuntest",
+        "pass": "9033"
     }
 ]
